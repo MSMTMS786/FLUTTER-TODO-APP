@@ -113,7 +113,7 @@ class _TodoHomePageState extends State<TodoHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.blue,
+    
       appBar: AppBar(
         title: Text(widget.title),
       ),
@@ -174,6 +174,7 @@ class _TodoHomePageState extends State<TodoHomePage> {
                         ),
                       ),
                       subtitle: Column(
+                      
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           if (task.description.isNotEmpty)
